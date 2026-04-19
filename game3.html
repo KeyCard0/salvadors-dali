@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvadors Dali</title>
+    <link rel="stylesheet" href="game3.css">
+</head>
+<body>
+    <!--Header / Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Salvador Dali🧑‍🎨</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Atpakaļ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="game-container">
+        <div class="section-content">
+            <div class="game-box">
+                <div class="game-text">
+                    <h1 class="game-title">Emociju Glezna</h1>
+                    <p class="game-description">
+                        Salvadors Dalī savos darbos bieži attēloja sarežģītas cilvēka emocijas. 
+                        Izvēlies, kā tu šobrīd jūties, un uzzini, kura mākslinieka glezna vislabāk atbilst tavam noskaņojumam!
+                    </p>
+
+            <div class="selection-area">
+                <label for="emotion-select">Kā tu šobrīd jūties?</label>
+                <select id="emotion-select">
+                    <option value="Vīlies">Vīlies</option>
+                        <option value="Vainīgs">Vainīgs</option>
+                        <option value="Bēdīgs">Bēdīgs</option>
+                        <option value="Griezsirdīgs">Griezsirdīgs</option>
+                        <option value="Garlaikots">Garlaikots</option>
+                        <option value="Dusmīgs">Dusmīgs</option>
+                        <option value="Uztraucies">Uztraucies</option>
+                        <option value="Apjucis">Apjucis</option>
+                        <option value="Lepns">Lepns</option>
+                        <option value="Nobijies">Nobijies</option>
+                        <option value="Neapmierināts">Neapmierināts</option>
+                        <option value="Laimīgs">Laimīgs</option>
+                        <option value="Patiecīgs">Patiecīgs</option>
+                        <option value="Nokaunējies">Nokaunējies</option>
+                        <option value="Priecīgs">Priecīgs</option>
+                    </select>
+                <button id="reveal-button" onclick="playGame()">Uzzināt</button>
+            </div>
+            </div>
+            
+
+            <div class="game-preview-image">
+                <img src="emocijas.jpg" alt="emocijas">
+            </div>
+            </div>
+
+            <div id="result-area" class="result-grid" style="display: none;">
+                <div class="result-text-box">
+                    <h3>Apraksts:</h3>
+                    <p id="result-text"></p>
+                </div>
+                <div class="result-image-box">
+                    <img id="result-img" src="" alt="Glezna">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <main>
+    <section class="result-section">
+        <div class="section-content">
+            <div class="result-card">
+                <div id="painting-display" class="image-placeholder">
+                    
+                </div>
+            </div>
+
+            <div class="result-card">
+                <div class="description-box">
+                    <h3></h3>
+                    <p id="painting-description"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="game3.js"></script>
+</body>
+</html>

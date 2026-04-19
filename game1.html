@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvadors Dali - Puzzle</title>
+    <link rel="stylesheet" href="game1.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Salvador Dali🧑‍🎨</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Atpakaļ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="game-container">
+        <div class="section-content">
+            <div class="game-box">
+                <div class="game-text">
+                    <h1 class="game-title">Saliec gleznu!</h1>
+                    <p class="game-description">Pārvieto gabaliņus</p>
+                </div>
+            </div>
+
+            <div class="drag-drop-place">
+                <div class="drag" id="drag">
+                    <div class="dragbox">
+                        <div class="images" id="block1" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(1\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block2" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(2\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block3" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(3\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block4" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(4\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block5" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(5\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block6" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(6\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block7" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(7\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block8" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(8\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block9" draggable="true" ondragstart="drag(event)" style="--img:url(puz1\(9\).jpg);"></div>
+                    </div>
+                </div>
+
+                <div class="drop">
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                </div>
+            </div>
+
+            <button id="reset" onclick="window.location.reload()">Sākt no jauna</button>
+        </div>
+    </section>
+
+    <section class="game-container">
+        <div class="section-content">
+            <div class="game-box">
+                <div class="game-text">
+                    <h1 class="game-title">Saliec gleznu!</h1>
+                    <p class="game-description">Pārvieto gabaliņus</p>
+                </div>
+            </div>
+
+            <div class="drag-drop-place">
+                <div class="drag" id="drag2">
+                    <div class="dragbox">
+                        <div class="images" id="block11" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(1\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block22" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(2\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block33" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(3\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block44" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(4\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block55" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(5\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block66" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(6\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block77" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(7\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block88" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(8\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block99" draggable="true" ondragstart="drag(event)" style="--img:url(puz2\(9\).jpg);"></div>
+                    </div>
+                </div>
+
+                <div class="drop">
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                </div>
+            </div>
+
+            <button id="reset2" onclick="window.location.reload()">Sākt no jauna</button>
+        </div>
+    </section>
+
+    <section class="game-container">
+        <div class="section-content">
+            <div class="game-box">
+                <div class="game-text">
+                    <h1 class="game-title">Saliec gleznu!</h1>
+                    <p class="game-description">Pārvieto gabaliņus</p>
+                </div>
+            </div>
+
+            <div class="drag-drop-place">
+                <div class="drag" id="drag3">
+                    <div class="dragbox">
+                        <div class="images" id="block111" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(1\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block222" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(2\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block333" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(3\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block444" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(4\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block555" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(5\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block666" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(6\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block777" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(7\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block888" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(8\).jpg);"></div>
+                    </div>
+                    <div class="dragbox">
+                        <div class="images" id="block999" draggable="true" ondragstart="drag(event)" style="--img:url(puz3\(9\).jpg);"></div>
+                    </div>
+                </div>
+
+                <div class="drop">
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                    <div class="dropbox" ondrop="drop(event)" ondragover="dropOver(event)"></div>
+                </div>
+            </div>
+
+            <button id="reset3" onclick="window.location.reload()">Sākt no jauna</button>
+        </div>
+    </section>
+
+    <script src="game1.js"></script>
+</body>
+</html>
