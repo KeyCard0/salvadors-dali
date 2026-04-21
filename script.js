@@ -93,7 +93,7 @@ const paintings = [
         description: 'Salvadors Dalī paņēma šo gleznu līdzi uz savu pirmo un vienīgo tikšanos ar Zigmundu Freidu Londonā 1938. Gadā. Un tas ir loģiski, jo tieši Freids ieviesa «narcisisma» jēdzienu psiholoģijā. '
     },
     {
-        image: 'gal-sapnis.jpg',
+        image: 'gal-gulbju.jpg',
         title: 'Gulbju atspulgs ziloņos',
         description: 'Tāpat kā «Narcisa metamorfoze», arī šī glezna tika gleznota paranoiskas krīzes laikā. Tajā tiek izmantoti arī dubulti attēli — viena no Dalī iecienītākajām tehnikām. '
     },
